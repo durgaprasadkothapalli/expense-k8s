@@ -15,11 +15,11 @@ spec:
       tier: web
       project: expense
   template:
-    # metadata:
-    #   labels:
-    #     app: mysql
-    #     tier: db
-    #     project: expense
+    metadata:
+      labels:
+        app: mysql
+        tier: db
+        project: expense
     spec:
       containers:
       - name: frontend

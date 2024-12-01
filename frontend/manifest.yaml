@@ -17,8 +17,8 @@ spec:
   template:
     metadata:
       labels:
-        app: mysql
-        tier: db
+        app: frontend
+        tier: web
         project: expense
     spec:
       containers:

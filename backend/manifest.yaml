@@ -36,7 +36,7 @@ spec:
         command: ['sh', '-c', "until nslookup mysql; do echo waiting for myservice; sleep 2; done"]
       containers:
       - name: backend
-        image: durgaprasadkothapalli/backend:v1
+        image: joindevops/backend:v1
         resources:
           requests:
             cpu: 100m

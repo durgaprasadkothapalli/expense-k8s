@@ -67,7 +67,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: durgaprasadkothapalli/mysql:
+        image: durgaprasadkothapalli/mysql:1.0.0
         readinessProbe:
           tcpSocket:
             port: 3305
